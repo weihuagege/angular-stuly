@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+line-height: 100px;
+    background: deepskyblue;
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+    margin-left: 20px;
+}
+p{
+    font-size: 36px;
+    color: deeppink;
+    margin-left: 60px;
+}
+.login{
+    margin-left: 300px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;   
+    margin-left: 10px;
+}
+.active{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=8685675,2171717858&fm=27&gp=0.jpg')
+}

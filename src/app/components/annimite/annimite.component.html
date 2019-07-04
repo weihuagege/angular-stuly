@@ -1,0 +1,15 @@
+<app-doms #doms [title]="title" [msg]="msg" [run]='run' [annimite]='this' (outer)="play($event)"></app-doms>
+<div class="content">
+内容
+<button (click)="show()">弹出侧边栏</button>
+<button (click)="hide()">弹出侧边栏</button>
+</div>
+<aside id="aside">
+侧边栏
+</aside>
+<div>
+    我是父亲组件
+</div>
+<button (click)="getchildrun()">执行子组件的方法</button>
+<br>
+<button (click)="getchild()">获取子组件的msgs</button>

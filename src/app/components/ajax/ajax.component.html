@@ -1,0 +1,21 @@
+<p>ajax works!</p>
+<button (click)="getdata()">
+    get请求
+</button>
+<button (click)="postdata()">
+    post请求
+</button>
+<button (click)="jsondata()">
+   json请求
+</button>
+<button (click)="axiosdata()">
+   axios请求
+ </button>
+<ul>
+    <li *ngFor="let item of list">
+        {{item.title}}
+      <div *ngFor="let items of item.list">
+          <p>{{items.cate_id}}</p>
+      </div>
+    </li>
+</ul>

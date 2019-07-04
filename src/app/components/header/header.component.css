@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.box{
+    width: 400px;
+    margin: 20px auto;
+}
+.inp{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+}
+
+button{
+    width: 20px;
+    height: 20px;
+}
+.btns{
+    width: 100px;
+    height: 30px;
+}

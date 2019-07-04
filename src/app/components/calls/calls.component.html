@@ -1,0 +1,16 @@
+<a [routerLink]="[ '/detail' ]">详情</a>
+<!-- <ul>
+    <li *ngFor="let item of list;let key=index;">
+<a [routerLink]="[ '/detail' ]" [queryParams]="{aid:key}">{{key}}---{{item}}</a>
+    </li>
+</ul> -->
+
+
+<div (click)="goDetail()">前往详情页</div>
+
+<ul>
+    <li *ngFor="let item of list;let key=index;">
+<a [routerLink]="[ '/detail',key ]">{{key}}---{{item}}</a>
+    </li>
+</ul>
+
